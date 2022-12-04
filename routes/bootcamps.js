@@ -18,6 +18,6 @@ router
   .delete(deleteBootcamp);
 
 // must be put last
-// router.use(errorHandler);
+router.use(errorHandler);
 
 module.exports = router;
